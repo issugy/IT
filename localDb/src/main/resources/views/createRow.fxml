@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.fedorenko.db.controllers.RowCreateController"
+            prefHeight="190.0" prefWidth="370.0">
+    <AnchorPane layoutX="-1.0" prefHeight="127.0" prefWidth="370.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <HBox alignment="CENTER" layoutX="73.0" layoutY="263.0" spacing="30.0" AnchorPane.bottomAnchor="10.0">
+            <Button defaultButton="true" layoutX="45.0" layoutY="71.0" mnemonicParsing="false" onMouseClicked="#submit" prefHeight="25.0" prefWidth="100.0" text="OK" />
+            <Button cancelButton="true" layoutX="175.0" layoutY="71.0" mnemonicParsing="false" onMouseClicked="#close" prefHeight="25.0" prefWidth="100.0" text="Cancel" />
+        </HBox>
+        <Group layoutX="15.0" layoutY="15.0" AnchorPane.topAnchor="10.0">
+            <Label prefHeight="15.0" prefWidth="160.0" text="EnterValues:"/>
+            <VBox fx:id="fields" layoutX="5.0" layoutY="28.0" prefWidth="335.0" spacing="5.0">
+                <HBox spacing="30.0">
+                </HBox>
+            </VBox>
+        </Group>
+    </AnchorPane>
+</AnchorPane>

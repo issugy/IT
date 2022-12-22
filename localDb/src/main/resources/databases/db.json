@@ -1,0 +1,30 @@
+[
+  {
+    "name":"product",
+    "attributes":[
+      {"column":"name", "type":"STRING"},
+      {"column":"price", "type":"INTEGER"},
+      {"column":"rate","type":"REAL"},
+      {"column":"color","type":"COLOR"}],
+    "id":1,
+    "rows":[
+      {"values":["dell","2000","5.0","#FF0000"],"id":1},
+      {"values":["lenovo","10000","8.4","#FF0000"],"id":3},
+      {"values":["samsung","800","7.0","#00FF00"],"id":4},
+      {"values":["apple","100","1.0","#00FF00"],"id":5}
+    ]
+  },
+  {
+    "name":"shop",
+    "attributes":[{"column":"address","type":"STRING"},
+      {"column":"rate","type":"REAL"},
+      {"column":"symb","type":"CHAR"}
+    ],
+    "id":2,
+    "rows":[
+      {"values":["fafaf","3.0","f"],"id":1},
+      {"values":["jaggajkh","3.0","p"],"id":2},
+      {"values":["affafa","10.0","p"],"id":3}
+    ]
+  }
+]
